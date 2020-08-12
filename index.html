@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/custom.css" />
+    <title>Christian Rojas</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark just">
+        <a class="navbar-brand" href="#">Christian Rojas</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto" id="nav-items-">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white"
+                href="#portfolio"
+                onclick="navFunc('Projects')"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <header
+      class="container-fluid mt-5 d-flex align-items-center justify-content-center"
+      id="header-div"
+    >
+      <div>
+        <h1>Christian Rojas</h1>
+        <h3>Software Developer</h3>
+        <button type="button" class="btn shadow-lg p-3 mb-5" id="see-work-btn">
+          <h5>See Work</h5>
+        </button>
+      </div>
+    </header>
+
+    <section class="mt-5 container-fluid" id="portfolio">
+      <div class="row justify-content-center">
+        <h1 class="mt-5">My Projects</h1>
+      </div>
+      <div id="project-boxes" class="row justify-content-center">
+        <div class="col-10 project-box shadow p-3 mb-5 bg-white rounded">
+          <div class="row">
+            <div class="col-sm-12 col-md-5">
+              <img src="https://via.placeholder.com/300" />
+            </div>
+            <div class="col-sm-12 col-md-7">main</div>
+          </div>
+        </div>
+        <div class="col-10 project-box shadow p-3 mb-5 bg-white rounded">
+          <div class="row">
+            <div class="col-sm-12 col-md-5">
+              <img src="https://via.placeholder.com/300" />
+            </div>
+            <div class="col-sm-12 col-md-7">main</div>
+          </div>
+        </div>
+        <div class="col-10 project-box shadow p-3 mb-5 bg-white rounded">
+          <div class="row">
+            <div class="col-sm-12 col-md-5">
+              <img src="https://via.placeholder.com/300" />
+            </div>
+            <div class="col-sm-12 col-md-7">main</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid bg-dark pb-5" id="about">
+      <div class="row justify-content-center">
+        <h1 class="pt-5">About Me</h1>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <p class="col-sm-12 col-md-10">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+          nihil adipisci, nam optio, tempore voluptatibus nulla iure aliquid
+          voluptates iste sapiente quas repudiandae excepturi laborum quos quo
+          exercitationem dicta veniam.
+        </p>
+      </div>
+    </section>
+
+    <section class="container-fluid bg-white pt-5" id="resume">
+      <div class="row justify-content-center">
+        <h1>Resume</h1>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/custom.js"></script>
+  </body>
+</html>

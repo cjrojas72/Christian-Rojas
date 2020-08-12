@@ -1,0 +1,47 @@
+body {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 84%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+#header-div {
+  height: 100vh;
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
+}
+
+#see-work-btn {
+  border: solid whitesmoke 2px;
+  box-shadow: 1px 1px black;
+  text-shadow: 1px 1px black;
+  width: 200px;
+  margin-top: 50px;
+  color: whitesmoke;
+}
+
+#see-work-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+#portfolio {
+  width: 100%;
+  background-color: white;
+}
+
+#stuff {
+  border: blue 2px solid;
+}
+
+#about {
+  color: whitesmoke;
+}
+
+.project-box {
+  margin-top: 15px;
+}
