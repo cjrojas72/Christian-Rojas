@@ -1,47 +1,72 @@
 body {
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 84%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  font-family: "Lato", arial, sans-serif;
+  color: #434343;
+  background: #dae3e7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-#header-div {
-  height: 100vh;
-  text-align: center;
-  color: whitesmoke;
-  text-shadow: 1px 1px black;
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
-#see-work-btn {
-  border: solid whitesmoke 2px;
-  box-shadow: 1px 1px black;
-  text-shadow: 1px 1px black;
-  width: 200px;
-  margin-top: 50px;
-  color: whitesmoke;
+footer {
+  height: 20px;
+  background-color: #282828;
 }
 
-#see-work-btn:hover {
+.header_ {
   background-color: white;
-  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-#portfolio {
-  width: 100%;
-  background-color: white;
+.see-work {
+  font-size: medium;
+  font-weight: bold;
 }
 
-#stuff {
-  border: blue 2px solid;
+.contact-me {
+  font-size: medium;
+  font-weight: bold;
 }
 
-#about {
-  color: whitesmoke;
+#main-name {
+  font-size: x-large;
 }
 
-.project-box {
-  margin-top: 15px;
+#main-name h1 {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.round-icon {
+  background-color: rgb(0, 123, 255);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 50%;
+}
+
+.skills h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #778492;
+  font-weight: bold;
+}
+
+#job-title {
+  font-family: "Montserrat", sans-serif;
+  color: #778492;
+  font-weight: bold;
+}
+
+i:hover {
+  background-color: #c0c0c0;
 }
