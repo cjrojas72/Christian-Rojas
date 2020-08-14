@@ -36,6 +36,15 @@ footer {
   font-weight: bold;
 }
 
+.pic-btn {
+  border: none;
+  background-color: white;
+}
+
+.pic-btn:hover {
+  background-color: #c0c0c0;
+}
+
 #main-name {
   font-size: x-large;
 }
