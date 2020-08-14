@@ -116,6 +116,7 @@ nav {
 
   #nav-buttons {
     float: none;
+    flex-direction: row;
     justify-content: center;
   }
 }

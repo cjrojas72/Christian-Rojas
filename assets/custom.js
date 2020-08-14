@@ -1,4 +1,10 @@
 buttonPos = document.getElementById("main-btns");
+navDiv = document.querySelector("nav");
+
+document.body.onload = function () {
+  console.log("I am trying to hide");
+  navDiv.style.visibility = "hidden";
+};
 
 window.onscroll = function () {
   scrollFunction();
