@@ -116,7 +116,9 @@ nav {
 
   #nav-buttons {
     float: none;
-    flex-direction: row;
-    justify-content: center;
+  }
+
+  #nav-buttons > .see-work {
+    margin-right: 0px;
   }
 }
