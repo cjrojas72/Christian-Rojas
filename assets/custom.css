@@ -109,4 +109,13 @@ nav {
     margin-top: 20px;
     justify-content: center;
   }
+
+  #nav-name {
+    visibility: hidden;
+  }
+
+  #nav-buttons {
+    float: none;
+    justify-content: center;
+  }
 }
