@@ -32,13 +32,35 @@
   </head>
 
   <body>
-    <header class="header_">
+    <nav>
+      <div class="container">
+        <div class="row" id="scroll-buttons">
+          <div class="col-12">
+            <div id="nav-name">
+              <a class="btn btn-primary" id="nav-name-btn" href="#main">CR</a>
+            </div>
+            <div id="nav-buttons">
+              <a class="btn btn-primary mr-3 see-work" href="#portfolio"
+                >VIEW PROJECTS</a
+              >
+              <a
+                class="btn btn-info contact-me"
+                href="mailto:cjrojas72@gmail.com"
+                target="_blank"
+                ><i class="fas fa-paper-plane"></i> CONTACT ME</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="header_" id="main">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-3">
             <img
               class="profile-img img-fluid rounded-circle pl-5"
-              src="chris-rojas-pic.png"
+              src="./assets/chris-rojas-pic.png"
               alt="profile image"
             />
           </div>
@@ -48,7 +70,7 @@
           >
             <h1>Christian Rojas</h1>
             <h4 id="job-title">Software Developer</h4>
-            <ul class="list-inline">
+            <ul class="list-inline" id="my-buttons">
               <li class="list-inline-item">
                 <a href="https://www.linkedin.com/in/christian-rojas-09b40011b/"
                   ><i class="fab fa-linkedin-in round-icon"></i
@@ -65,12 +87,12 @@
             class="col-xs-12 col-md-4 d-flex align-items-center"
             id="main-btns"
           >
-            <a class="btn btn-primary mr-3 see-work" href="#latest section"
+            <a class="btn btn-primary mr-3 see-work" href="#portfolio"
               >VIEW PROJECTS</a
             >
             <a
               class="btn btn-info contact-me"
-              href="https://themes.3rdwavemedia.com/"
+              href="mailto:cjrojas72@gmail.com"
               target="_blank"
               ><i class="fas fa-paper-plane"></i> CONTACT ME</a
             >
@@ -134,9 +156,6 @@
                 nostrum nihil.
               </div>
             </div>
-          </section>
-          <section class="projects shadow p-3 mb-4 pt-4 bg-white rounded">
-            <h2>Contact Me</h2>
           </section>
         </div>
         <div class="col-xs-12 col-md-4">
@@ -249,7 +268,7 @@
             <h4>OR</h4>
             <p>
               Download
-              <a href="./CHRISTIAN_ROJAS_Resume.PDF" download
+              <a href="./assets/CHRISTIAN_ROJAS_Resume.PDF" download
                 ><i class="fas fa-file-download fa-2x ml-2"></i
               ></a>
             </p>
@@ -260,5 +279,7 @@
     <footer>
       <div class="container-fluid"></div>
     </footer>
+
+    <script src="assets/custom.js"></script>
   </body>
 </html>
