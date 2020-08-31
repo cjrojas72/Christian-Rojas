@@ -126,8 +126,12 @@ nav {
   #nav-buttons {
     float: none;
   }
+  
+  #nav-buttons > .btn {
+    font-size: small;
+  }
 
-  #nav-buttons > .see-work {
-    margin-right: 0px;
+  .profile-img{
+    padding-right: 20px
   }
 }
